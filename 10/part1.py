@@ -30,7 +30,7 @@ def follow_path(start_point, hikemap, visited):
 
         if hikemap[step[0]][step[1]] == 9 and (step[0], step[1]) not in visited:
             trailhead_score += 1
-            visited.append((step[0], step[1]) )
+            visited.append((step[0], step[1]))
 
     return trailhead_score
         
