@@ -26,6 +26,3 @@ for comp, conn in computers.items():
 
 print(",".join(sorted(list(max(comp_sets, key=len)))))
 
-
-
-
