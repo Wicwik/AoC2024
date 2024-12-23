@@ -10,7 +10,7 @@ with open("input.txt", "r") as file:
         computers[b].append(a)
 
 
-print(computers)
+# print(computers)
 
 tripples = []
 
